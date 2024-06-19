@@ -73,6 +73,9 @@ func BossBabyRevenge(s string) (r string) {
 
 // ------------------------------------------------
 
+/** ValidateInput function takes a slice of runes as input and returns a boolean value. The function checks if the input is valid or not.
+ * @params: chars ([]rune)
+ */
 func ValidateInput(chars []rune) bool {
 	size := len(chars)
 	if size <= 1 && size >= 1_000_000 {
